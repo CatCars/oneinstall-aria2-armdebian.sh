@@ -6,7 +6,7 @@ Blue="\033[36m"
 
 echo -e "================================================="
 echo -e "${Blue}Aria2一键安装脚本 Debian for ARM ${Font}"
-echo -e "${Blue}By QQ354766707${Font}"
+echo -e "${Blue}By QQ${Font}"
 echo -e "================================================="
 
 [[ ${EUID} -ne 0 ]] && echo -e "${Red}请使用root用户运行该脚本！${Font}" && exit 1;
